@@ -3,6 +3,9 @@ NRS
 
 Node Real Services
 
+NRS is an OTRS (otrs.org) clone implemented in Node.js.
+
+
 Authors
 =============
 
