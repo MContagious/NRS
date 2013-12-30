@@ -1,0 +1,16 @@
+!!!
+html
+	head
+		link(rel='icon', href='/images/logo.png')
+		title= title
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		block layout-css
+		script(src='//codeorigin.jquery.com/jquery-2.0.3.min.js')
+		script(src='//codeorigin.jquery.com/ui/1.10.3/jquery-ui.min.js')
+		script(src='//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js')
+		script(src='http://code.angularjs.org/1.2.0-rc.2/angular.min.js')
+		script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js')
+		block layout-js
+	body
+		block layout-data
+		block content
